@@ -36,13 +36,16 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 
 - Orchestrated the data workflows using Data Factory via pipelines to ensure smooth and efficient operations.
 
-## Created PowerBi Interactive Dashboard with DAX Query using custom semantic model
+## Created PowerBi Interactive Dashboard using custom semantic model
 - Data Reporting using Power BI: Visualized the data in a compelling and actionable manner, empowering stakeholders with valuable insights.
+- Created four new measures using DAX queries to calculate different sentiments: positive, negative, neutral and mixed.
 ### ![powerbi](assets/powerbi.png)
 
 
 ## Created Custom Alerts
 - Configured alerts and notifications within the Power BI visuals using Data Activator Reflex.
+- Condition for the alert if Negative sentiment percentage in the total news is >= 10%.
+
 ### ![dataactivator](assets/dataactivator.png)
 
 ## End to End Pipeline Testing
