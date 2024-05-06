@@ -36,7 +36,21 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 
 - Orchestrated the data workflows using Data Factory via pipelines to ensure smooth and efficient operations.
 
-5. Data Reporting using Power BI: Visualize the data in a compelling and actionable manner, empowering stakeholders with valuable insights.
-6. Configuring Alerts using the Data Activator: Stay ahead of potential issues by setting up alerts and notifications within the Power BI visuals using Data Activator.
-7. End to End Pipeline Testing: The complete flow will be tested right from the data ingestion to the data transformation and until the report gets updated with the incoming new data to Validate the integrity and performance of the pipelines, ensuring reliability and accuracy.
+## Created PowerBi Interactive Dashboard with DAX Query using custom semantic model
+- Data Reporting using Power BI: Visualized the data in a compelling and actionable manner, empowering stakeholders with valuable insights.
+### ![powerbi](assets/powerbi.png)
+
+
+## Created Custom Alerts
+- Configured alerts and notifications within the Power BI visuals using Data Activator Reflex.
+### ![dataactivator](assets/dataactivator.png)
+
+## End to End Pipeline Testing
+- The complete flow tested right from the data ingestion to the data transformation and until the report gets updated with the incoming new data to Validate the integrity and performance of the pipelines, ensuring reliability and accuracy.
+- Review the different pipeline run results in Monitoring Hub.
+### ![monitoring_hub](assets/monitoring_hub.png)
+
+
+## Different resources created under the workspace
+### ![workspace](assets/workspace.png)
     
