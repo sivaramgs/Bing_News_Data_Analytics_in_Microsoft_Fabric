@@ -12,3 +12,13 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 
 # Project Architecture
 ### ![Architecture](assets/architecture.png)
+
+
+# Tech Stack:
+- Copy Data Using Data Factory (Fabric)
+- Synapse Data Engineering (Fabric)
+- Spark Notebook (Fabric)
+- Synapse Data Science (Fabric)
+- Power BI (Fabric)
+- Pipelines using Data Factory (Fabric)
+- Alerts using Data Activator (Fabric)
