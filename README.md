@@ -23,12 +23,15 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 ### ![resourcegroup](assets/resource_group.png)
 
 
-## Configured Data Factory Pipelines
-### ![datafactory](assets/datafactory.png)
+## ETL Process
 - Ingested data from Bing V7 Rest API using Data Factory copydata activity.
 - Transformated data using Synapse Data Engineering: Refined the raw JSON data to a curated Delta Table ('tbl_latest_news'), including techniques like incremental loading (Type 1 SQL Merge) to keep the processes efficient.
 - Done Sentiment Analysis using Synapse Data Science: Uncovered insights hidden within the news description by predicting the sentiment of the news classified as Positive, Negative, Neutral or Mixed. Stored the results as a separate column 'sentiment' in a new delta table 'tbl_sentiment_analysis'
 ### ![dataengineering](assets/dataengineering.png)
+
+
+## Configured Data Factory Pipelines
+### ![datafactory](assets/datafactory.png)
 
 
 - Orchestrated the data workflows using Data Factory via pipelines to ensure smooth and efficient operations.
