@@ -2,7 +2,14 @@
 To build a Bing News Data Analytics platform in Azure Data Engineering using Microsoft Fabric.Pull raw data from Bing API, transform the raw data to clean data with Synapse Data Engineering, analyze sentiment with Synapse Data Science, set up workflows with Data Factory, make cool reports with Power BI, set alerts with Data Activator, and test the pipeline.
 
 # High Level Requirements:
-### ![Agenda](assets/agenda.png)
+1. Environment Setup
+2. Data Ingestion
+3. Data Transformation (Incremental Load)
+4. Sentiment Analysis (Incremental Load)
+5. Data Reporting
+6. Building Pipelines
+7. Setting Up Alerts (Data Activator)
+8. End to End Testing
 
 # Project Architecture
 ### ![Architecture](assets/architecture.png)
