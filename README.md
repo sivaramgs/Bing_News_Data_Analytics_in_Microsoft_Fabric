@@ -25,5 +25,5 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 
 # Work Done:
 ## Created Azure Resource Group
-- Created the required resources under single resource group: Azure Key Vault, Azure data factory, Azure databricks workspace, Azure synapse analytics, Azure Storage Account
+- Created the required resources under single resource group: Bing News APi and Fabric Capacity.
 ### ![resourcegroup](assets/resource_group.png)
