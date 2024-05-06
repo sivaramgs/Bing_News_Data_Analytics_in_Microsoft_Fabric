@@ -10,6 +10,9 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 6. Configuring Alerts using the Data Activator: Stay ahead of potential issues by setting up alerts and notifications within the Power BI visuals using Data Activator.
 7. End to End Pipeline Testing: The complete flow will be tested right from the data ingestion to the data transformation and until the report gets updated with the incoming new data to Validate the integrity and performance of the pipelines, ensuring reliability and accuracy.
 
+# Agenda
+### ![Agenda](assets/agenda.png)
+
 # Project Architecture
 ### ![Architecture](assets/architecture.png)
 
@@ -27,3 +30,8 @@ To build a Bing News Data Analytics platform in Azure Data Engineering using Mic
 ## Created Azure Resource Group
 - Created the required resources under single resource group: Bing News APi and Fabric Capacity.
 ### ![resourcegroup](assets/resource_group.png)
+
+## Configured Data Factory Pipelines
+- In Fabric Data Factory, created a pipeline with copydata activity to pull latest news using Bing V7 Rest API provided by Azure.
+### ![datafactory](assets/datafactory.png)
+    
